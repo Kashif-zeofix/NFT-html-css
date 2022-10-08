@@ -1,0 +1,2379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+#sidebar
+{
+    height: 801px;
+    width: 7.6%;
+    background-color: #1d1933;
+    position: fixed;
+    top: 0px;
+}
+.mainlogo
+{
+    height: 41px;
+    width: 30px;
+    background-image: url(./NETMAK/logo.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: relative;
+    left: 44px;
+    top: 57px;
+}
+.box
+{
+    height: 51px;
+    width: 52px;
+    background-color: #131129;
+    border-radius: 9px;
+    cursor: pointer;
+    border: 0.1px solid #35343499 ;
+    position: relative;
+    left: 33px;
+    top: 85px;
+}
+.main
+{
+    height: 1065px;
+    width: 93%;
+    position: relative;
+    left: 7.6%;
+    background-image: url(./NETMAK/banner_bg.jpg);
+    background-size: 100% 100%;
+}
+.cu-top
+{
+    color: white;
+}
+#l1
+{
+    color: #59606b;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+.box2
+{
+    height: 51px;
+    width: 52px;
+    background-color:#2a2641e2;
+    border-radius: 9px;
+    border: 0.1px solid #35343499 ;
+    cursor: pointer;
+    position: relative;
+    left: 33px;
+    top: 105px;
+}
+.box2:hover
+{
+    background-color: #131129;
+}
+#l2
+{
+    color: #59606b;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+.box3
+{
+    height: 51px;
+    width: 52px;
+    background-color:#2a2641e2;
+    border-radius: 9px;
+    border: 0.1px solid #35343499;
+    cursor: pointer;
+    position: relative;
+    left: 33px;
+    top: 160px;
+}
+.box3:hover
+{
+    background-color: #131129;
+}
+#l3
+{
+    color: #59606b;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-left: 9px;
+    padding-top: 10px;
+}
+.box4
+{
+height: 51px;
+width: 52px;
+background-color:#2a2641e2;
+border-radius: 9px;
+border: 0.1px solid #35343499 ;
+cursor: pointer;
+position: relative;
+left: 33px;
+top: 180px;
+}
+.box4:hover
+{
+background-color: #131129;
+}
+#l4
+{
+color: #59606b;
+font-size: 30px;
+box-sizing: border-box;
+padding-left: 14px;
+padding-top: 10px;
+}
+.box5
+{
+height: 51px;
+width: 52px;
+background-color:#2a2641e2;
+border-radius: 9px;
+border: 0.1px solid #35343499 ;
+cursor: pointer;
+position: relative;
+left: 33px;
+top: 200px;
+}
+.box5:hover
+{
+background-color: #131129;
+}
+#l5
+{
+color: #59606b;
+font-size: 30px;
+box-sizing: border-box;
+padding-left: 9px;
+padding-top: 10px;
+}
+.box6
+{
+height: 51px;
+width: 52px;
+background-color:#2a2641e2;
+border-radius: 9px;
+border: 0.1px solid #35343499 ;
+cursor: pointer;
+position: relative;
+left: 33px;
+top: 220px;
+}
+.box6:hover
+{
+background-color: #131129;
+}
+#l6
+{
+color: #59606b;
+font-size: 30px;
+box-sizing: border-box;
+padding-left: 10.5px;
+padding-top: 11px;
+}
+.box7
+{
+height: 51px;
+width: 52px;
+background-color:#2a2641e2;
+border-radius: 9px;
+border: 0.1px solid #35343499 ;
+cursor: pointer;
+position: relative;
+left: 33px;
+top: 240px;
+}
+.box7:hover
+{
+background-color: #131129;
+}
+#l7
+{
+color: #59606b;
+font-size: 30px;
+box-sizing: border-box;
+padding-left: 11px;
+padding-top: 11px;
+}
+.box8
+{
+    height: 4px;
+    width: 25px;
+    border-radius: 5px;
+    background-color:#131129;
+    position: relative;
+    left: 47px;
+    top: -130px;
+}
+.headerbar
+{
+    height: 90px;
+    width: 1275px;
+    border:0.5px solid #35343499;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+.divinbar
+{
+    height: 80px;
+    width: 1255px;
+    border-radius: 10px;
+    background-color: #1d1933;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.logodiv
+{
+    height: 19px;
+    width: 120px;
+    background-image: url(./NETMAK/naftmak.svg);
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: relative;
+    left:17px;
+    top: 34px;
+}
+.linediv
+{
+    height: 32px;
+    width: 4px;
+    border-radius: 5px;
+    background-color: #322c50;
+    position: relative;
+    left: 180px;
+    top: 7px;
+}
+.dotdiv
+{
+    height: 42px;
+    width: 270px;
+    background-color: #131129;
+    border: 1px dotted #35343499;
+    border-radius: 5px;
+    position: relative;
+    left: 250px;
+    top: -33px;
+}
+#inlg
+{
+    color:#59606b;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-top: 13px;
+}
+.put
+{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    overflow: none;
+    padding-left: 10px;
+
+}
+.put::placeholder
+{
+    color: white;
+    border: none;
+    outline: none;
+}
+ul
+{
+    height: 30px;
+    width: 430px;
+    position: relative;
+    left: 595px;
+    top: -68px;
+}
+ul>li
+{
+    float: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+li:hover
+{
+color:#d035e5;
+}
+.divup
+{
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    position: relative;
+    left: 1045px;
+    top: -110px;
+    background: linear-gradient(to right,#7343ef,#d035e5);
+}
+.divup:hover
+{
+    background: linear-gradient(to right,#d035e5,#7343ef)
+}
+.dotin
+{
+    height: 35px;
+    width: 165px;
+    border: 1px dashed white;
+    border-radius: 20px;
+    position: relative;
+    left: 6px;
+    top: 7px;
+}
+.atom-9
+{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.booxx{
+    height: 350px;
+    width: 550px;
+    margin-top:150px;
+    margin-left: 155px;
+
+}
+.booxx h1{
+    color: white;
+    font-size: 69px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 85px;
+    font-weight: 550;
+}
+.txt
+{
+    color: #bbb9b5;
+    font-size: 17.5px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.colordiv
+{
+    height: 30px;
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+.color2
+{
+    height: 50px;
+    width: 50px;
+    transition-duration: 0.5s;
+    background: linear-gradient(to right,#7343ef,#d035e5);
+    border-radius: 100px;
+    margin-top: -53px;
+}
+.colordiv p
+{
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:9px;
+    margin-top: 7px;
+}
+.color2:hover
+{
+    width: 200px;
+}
+#arow
+{
+    color: white;
+    position: relative;
+    left: 172px;
+    top: -19px;
+}
+.sltr
+{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    left: 70px;
+    top: 160px;
+}
+.sltr p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+}
+.idiv
+{
+    height: 35px;
+    width: 15px;
+    background-image: url(./NETMAK/title_icon01.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 218px;
+    top:108px;
+
+}
+.boxx{
+    height: 130px;
+    width: 290px;
+    border: 2px solid #7343ef;
+    border-radius: 20px;
+    background-color:#1d1933 ;
+    margin-left: 25px;
+    display:inline-block ;
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
+.boxx:hover
+{
+    
+}
+.bdiv
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    background-image: url(./NETMAK/top-seller-img.jpg);
+    background-size: 100% 100%;
+    position:absolute;
+    left: 30px;
+    top: 30px;
+}
+.div-1
+{
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    left: 125px;
+    top: 33px;
+}
+.div-1 p
+{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.div-1 h5
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.s-box
+{
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    border: 1px solid rgb(47, 45, 45);
+    position: absolute;
+    left: 125px;
+    top: 90px;
+}
+.s-box:hover
+{
+    border:1px solid #d035e5;
+    color: #d035e5;
+}
+.s-box:hover #mini
+{
+    color: #d035e5;
+}
+#mini
+{
+    color:#59606a;
+    font-size: 13.5px;
+    font-weight: 1500;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#mini:hover
+{
+    color: #d035e5;
+}
+.s-box1
+{
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    border: 1px solid rgb(47, 45, 45);
+    position: absolute;
+    left: 155px;
+    top: 90px;
+}
+.s-box1:hover
+{
+    border:1px solid #d035e5;
+    color: #d035e5;
+}
+.s-box:hover #mini-1
+{
+    color: #d035e5;
+}
+#mini-1
+{
+    color:#59606a;
+    font-size: 13.5px;
+    font-weight: 1500;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+#mini-1:hover
+{
+    color: #d035e5;
+}
+.bdiv2
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    background-image: url(./NETMAK/top-seller-img02.jpg);
+    background-size: 100% 100%;
+    position:absolute;
+    left: 30px;
+    top: 29px;
+}
+.bdiv3
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    background-image: url(./NETMAK/top-seller-img03.jpg);
+    background-size: 100% 100%;
+    position:absolute;
+    left: 30px;
+    top: 29px;
+}
+.bdiv4
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    background-image: url(./NETMAK/top-seller-img04.jpg);
+    background-size: 100% 100%;
+    position:absolute;
+    left: 30px;
+    top: 29px;
+}
+.end
+{
+    height: 1.5px;
+    width: 1236px;
+    background-color:   #322c50;
+    position: relative;
+    left: 80px;
+    top: 210px;
+}
+.main-2
+{
+    height: 675px;
+    width: 93%;
+    margin-left:110px;
+    background-color: #070b24;
+}
+.navdiv
+{
+    height: 50px;
+    width: 230px;
+    position: relative;
+    left:90px;
+    top: 75px;
+}
+.navdiv p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+.imdiv
+{
+    height: 35px;
+    width: 15px;
+    background-image: url(./NETMAK/title_icon01.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 428px;
+    margin-top: 30px;
+}
+.Gbox
+{
+    height: 430px;
+    width: 295px;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+    background-color: #1d1933;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+    left: 70px;
+    top: 110px;
+}
+.pdiv
+{
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-image: url(./NETMAK/top_col_avatar.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 25px;
+    top: 18px;
+}
+.nmdiv
+{
+    height: 15px;
+    width: 80px;
+    cursor: pointer;
+    position: absolute;
+    left: 63px;
+    top: 24px;
+}
+.nmdiv p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+}
+.ddiv
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #5f5d6d;
+    position: absolute;
+    left: 230px;
+    top: 25px;
+}
+.ddiv2
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color:#82808a;
+    position: absolute;
+    left: 245px;
+    top: 25px;
+}
+.ddiv3
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #ccc;
+    position: absolute;
+    left: 260px;
+    top: 25px;
+}
+.carton
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection01.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.box10
+{
+    height: 30px;
+    width: 170px;
+    cursor: pointer;
+    position: absolute;
+    left: 21px;
+    top: 315px;
+}
+.box10 p
+{
+    color: rgb(249, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.box11
+{
+    height: 20px;
+    width: 65px;
+    position: absolute;
+    left: 225px;
+    top: 317px;
+}
+.box11 p
+{
+    color: #d035e5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bardiv
+{
+    height: 1px;
+    width: 250px;
+    border-radius: 5px;
+    background-color:#2c2e41 ;
+    position: absolute;
+    left: 20px;
+    top: 350px;
+}
+.box12
+{
+    height: 42px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: linear-gradient(to left,#d035e5,#7343ef);
+    position: absolute;
+    left: 21px;
+    top: 370px;
+}
+.box12:hover
+{
+    background: linear-gradient(to left,#7343ef,#d035e5); 
+}
+.dotbox1
+{
+    height: 31px;
+    width: 118px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px dashed white;
+    margin-left: 4.5px;
+    margin-top: 4.5px;
+}
+.dotbox1 p
+{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6px;
+}
+.icnbox1
+{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 235px;
+    top: 380px;
+}
+#hrt
+{
+    color: #322e4d;
+    cursor: pointer;
+}
+#hrt:hover
+{
+    color: #d035e5;
+}
+
+.atom
+{
+    color: #aba9a9;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -19px;
+    font-size: 14px;
+}
+.carton1
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection02.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.carton2
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection03.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.carton3
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection04.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.main-div3
+{
+    height: 600px;
+    width: 93%;
+    background-color:#12142d;
+    background-image: url(./NETMAK/features_bg.png);
+    background-size: 100% 100%;
+    margin-left: 115px;
+}
+.box13
+{
+    height: 60px;
+    width: 310px;
+    position: relative;
+    left: 90px;
+    top: 80px;
+}
+.box13 h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+}
+.box14
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-image: url(./NETMAK/title_icon02.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 405px;
+    top: 17px;
+}
+.boxox
+{
+    height: 395px;
+    width: 403px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color:#1d1933;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 52px;
+
+}
+.i-div
+{
+    height: 52px;
+    width: 52px;
+    background-image: url(./NETMAK/features_avatar.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    border-radius: 100px;
+    position: absolute;
+    left: 25px;
+    top: 28px;
+}
+.box15
+{
+    height: 50px;
+    width: 170px;
+    cursor: pointer;
+    position: absolute;
+    left: 95px;
+    top: 31px;
+}
+.box15 p
+{
+    color: #ededed;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.box15 p:hover
+{
+    color: #d035e5;
+}
+.box15 h4
+{
+    color: #ededed;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+.smart
+{
+    height: 30px;
+    width: 58px;
+    background-color: #070b24;
+    border-radius: 10px;
+    position: absolute;
+    left: 320px;
+    top: 40px;
+}
+#hrt-2
+{
+    color: #322e4d;
+    padding-left: 8px;
+    cursor: pointer;
+    margin-top: 7.5px;
+}
+#hrt-2:hover
+{
+    color: #d035e5;
+}
+.smart p
+{
+    color:#ededed ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+    padding-left: 27.5px;
+    margin-top: -17.5px;
+}
+.box16
+{
+    height: 267px;
+    width: 172px;
+    background-image: url(./NETMAK/features_img01.png);
+    background-size: 100% 100%;
+    border-radius: 8px;
+    position: absolute;
+    left: 23px;
+    top: 100px;
+}
+.box17
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    background-image: url(./NETMAK/features_img02.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 210px;
+    top:100px;
+}
+.box18
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    background-image: url(./NETMAK/features_img03.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 300px;
+    top:100px;
+}
+.box19
+{
+    height: 172px;
+    width: 170px;
+    border-radius: 8px;
+    background-image: url(./NETMAK/features_img04.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 210px;
+    top:195px;
+}
+.i-div2
+{
+    height: 52px;
+    width: 52px;
+    background-image: url(./NETMAK/features_avatar02.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    border-radius: 100px;
+    position: absolute;
+    left: 25px;
+    top: 28px;
+}
+.box152
+{
+    height: 50px;
+    width: 170px;
+    cursor: pointer;
+    position: absolute;
+    left: 95px;
+    top: 31px;
+}
+.box152 p
+{
+    color: #ededed;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.box152 p:hover
+{
+    color: #d035e5;
+}
+.box152 h4
+{
+    color: #ededed;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.box162
+{
+    height: 267px;
+    width: 172px;
+    background-image: url(./NETMAK/s_features_img01.png);
+    background-size: 100% 100%;
+    border-radius: 8px;
+    position: absolute;
+    left: 23px;
+    top: 100px;
+}
+.box182
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    background-image: url(./NETMAK/s_features_img03.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 300px;
+    top:100px;
+}
+.box192
+{
+    height: 172px;
+    width: 170px;
+    border-radius: 8px;
+    background-image: url(./NETMAK/top_collection09.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 210px;
+    top:195px;
+}
+.i-div3
+{
+    height: 52px;
+    width: 52px;
+    background-image: url(./NETMAK/features_avatar03.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    border-radius: 100px;
+    position: absolute;
+    left: 25px;
+    top: 28px;
+}
+.box153
+{
+    height: 50px;
+    width: 170px;
+    cursor: pointer;
+    position: absolute;
+    left: 95px;
+    top: 31px;
+}
+.box153 p
+{
+    color: #ededed;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.box153 p:hover
+{
+    color: #d035e5;
+}
+.box153 h4
+{
+    color: #ededed;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.box163
+{
+    height: 267px;
+    width: 172px;
+    background-image: url(./NETMAK/t_features_img01.png);
+    background-size: 100% 100%;
+    border-radius: 8px;
+    position: absolute;
+    left: 23px;
+    top: 100px;
+}
+.box193
+{
+    height: 172px;
+    width: 170px;
+    border-radius: 8px;
+    background-image: url(./NETMAK/t_features_img04.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 210px;
+    top:195px;
+}
+/* next */
+.main-div4
+{
+    height: 440px;
+    width: 93%;
+    background-color:#070b24;
+    margin-left: 115px;
+}
+.navbox4
+{
+    height: 60px;
+    width: 390px;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+.navbox4 p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 780;
+    font-size: 28px;
+}
+.ghost
+{
+    height: 45px;
+    width: 45px;
+    background-image: url(./NETMAK/title_icon03.png);
+    background-size: 100% 100%;
+    border-radius: 100px;
+    position: relative;
+    left: 356px;
+    top: -40px;
+}
+.cratbox1
+{
+    height: 215px;
+    width: 295px;
+    margin-left: 20px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+.cratbox1:hover
+{
+    top: -1px;
+    transition-duration: 0.5s;
+}
+.barpic
+{
+    height: 70px;
+    width: 85px;
+    background-image: url(./NETMAK/nfts_01.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 190px;
+    top: -30px;
+}
+.read1
+{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    left: 25px;
+    top: 29px;
+}
+.read1 p
+{
+    color:#7343ef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+.read-2
+{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 24px;
+    top: 70px;
+}
+.read-2 h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+.read-3
+{
+    height: 80px;
+    width: 235px;
+    position: absolute;
+    left: 24px;
+    top: 105px;
+}
+.read-3 p
+{
+    color:#aba9a9;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cratbox2
+{
+    height: 215px;
+    width: 295px;
+    margin-left: 20px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+.cratbox2:hover
+{
+    top: -1px;
+    transition-duration: 0.5s;
+}
+.barpic2
+{
+    height: 70px;
+    width: 70px;
+    background-image: url(./NETMAK/nfts_02.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 195px;
+    top: -30px;
+}
+.read1-2
+{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    left: 25px;
+    top: 29px;
+}
+.read1-2 p
+{
+    color:#7343ef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+.read-2
+{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 24px;
+    top: 70px;
+}
+.read-2 h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+.read-3
+{
+    height: 80px;
+    width: 235px;
+    position: absolute;
+    left: 24px;
+    top: 105px;
+}
+.read-3 p
+{
+    color:#aba9a9;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cratbox3
+{
+    height: 215px;
+    width: 295px;
+    margin-left: 20px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+.cratbox3:hover
+{
+    top: -1px;
+    transition-duration: 0.5s;
+}
+.barpic3
+{
+    height: 80px;
+    width: 70px;
+    background-image: url(./NETMAK/nfts_03.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 200px;
+    top: -35px;
+}
+.read1-3
+{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    left: 25px;
+    top: 29px;
+}
+.read1-3 p
+{
+    color:#7343ef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+.read-2
+{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 24px;
+    top: 70px;
+}
+.read-2 h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+.read-3
+{
+    height: 80px;
+    width: 235px;
+    position: absolute;
+    left: 24px;
+    top: 105px;
+}
+.read-3 p
+{
+    color:#aba9a9;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cratbox4
+{
+    height: 215px;
+    width: 295px;
+    margin-left: 20px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+.cratbox4:hover
+{
+    top: 1px;
+    transition-duration: 0.5s;
+}
+.barpic4
+{
+    height: 70px;
+    width: 70px;
+    background-image: url(./NETMAK/nfts_04.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 200px;
+    top: -30px;
+}
+.read1-4
+{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    left: 25px;
+    top: 29px;
+}
+.read1-4 p
+{
+    color:#7343ef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+.read-2
+{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 24px;
+    top: 70px;
+}
+.read-2 h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+.read-3
+{
+    height: 80px;
+    width: 235px;
+    position: absolute;
+    left: 24px;
+    top: 105px;
+}
+.read-3 p
+{
+    color:#aba9a9;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.maindiv-5
+{
+    height: 1060px;
+    width: 93%;
+    margin-left: 110px;
+    background-color:#070b24;
+}
+.navdiv-6
+{
+    height: 40px;
+    width: 225px;
+    position: relative;
+    left: 85px;
+    top: 9px;
+
+}
+.navdiv-6 p
+{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 28px;
+    font-weight: 600;
+}
+.box1-8
+{
+    height: 38px;
+    width: 14px;
+    background-image: url(./NETMAK/title_icon01.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 312px;
+    top: -34px;
+}
+/* .mainbox
+{
+    height: 500px;
+    width: 1290px;
+    border: 2px solid red;
+    position: relative;
+    left: 70px;
+
+} */
+.parent{
+    
+    height: 430px;
+    width: 295px;
+    margin-left: 20px;
+    background-color: #1d1933;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+    left: 65px;
+    top: 10px;
+}
+.carton1-1
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection05.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.carton2-2
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection06.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.carton3-3
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection07.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.main-parant1
+{
+    height: 490px;
+    width: 1330px;
+    position: relative;
+    left: px;
+    top: 30px;
+}
+.carton-one
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection08.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.carton1-two
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection09.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.carton2-tree
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection10.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.carton3-four
+{
+    height: 230px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(./NETMAK/top_collection11.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 23px;
+    top: 60px;
+}
+.box10-1
+{
+    height: 30px;
+    width: 170px;
+    cursor: pointer;
+    position: absolute;
+    left: 21px;
+    top: 315px;
+}
+.box10
+{
+    height: 30px;
+    width: 170px;
+    cursor: pointer;
+    position: absolute;
+    left: 21px;
+    top: 315px;
+}
+.maindiv-7
+{
+    height: 1450px;
+    width: 93%;
+    background-color: #12142d;
+    margin-left: 110px;
+}
+.navdiv-8
+{
+    height: 50px;
+    width: 300px;
+    position: relative;
+    left: 85px;
+    top: 70px;
+}
+.navdiv-8 p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+}
+.box20
+{
+    height: 40px;
+    width: 15px;
+    background-image: url(./NETMAK/title_icon01.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 387px;
+    top: 17px;
+}
+.boxer
+{
+    height: 600px;
+    width: 1350px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.box_fth
+{
+    height: 520px;
+    width: 405px;
+    /* border: 4px solid white; */
+    position: relative;
+    left: 65px;
+    top: 30px;
+    overflow: hidden;
+}
+.box21
+{
+    height: 520px;
+    width: 405px;
+    border-radius: 10px;
+    background-image: url(./NETMAK/news_thumb01.png);
+    background-size: 100% 100%;
+    transition-duration: 1s;
+
+
+    /* position: absolute;
+    left: 60px;
+    top: 30px; */
+}
+.box21:hover
+{
+    background-size: 105% 105%;
+
+    transition-duration: 1s;
+}
+.inbox1
+{
+    height: 236px;
+    width: 365px;
+    background-color: #18152b;
+    border: 3px solid #d035e5;
+    border-radius: 5px;
+    position: relative;
+    left: 17.5px;
+    top: 264px;
+}
+.comentdiv
+{
+    height: 30px;
+    width: 250px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#adm
+{
+    color: #59606b;
+    padding-top: 10px;
+}
+.comentdiv p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size:14.5px ;
+    padding-left: 25px;
+    margin-top: -17px;
+}
+.comentdiv p:hover
+{
+    color: #d035e5;
+}
+.strat
+{
+    height: 11px;
+    width: 3px;
+    background-color: #2f294a;
+    border-radius: 2px;
+    position: absolute;
+    left: 85px;
+    top: 13px;
+}
+#cld
+{
+    color: #59606b;
+    position: absolute;
+    left: 110px;
+    top: 9px;
+    font-size: 16px;
+}
+.comentdiv h3
+{
+    color: white;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 132px;
+    top: 11px;
+}
+.bar
+{
+    height: 2px;
+    width: 300px;
+    background-color: #3b3b3f;
+    position: absolute;
+    left: 50px;
+    top: 335px;
+}
+.top
+{
+    height: 140px;
+    width: 300px;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+}
+.top p
+{
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 28px;
+}
+.top p:hover
+{
+    color: #d035e5;
+}
+.insin
+{
+    height: 45px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 30px;
+    background: linear-gradient(to right,#7343ef,#d035e5);
+    position: relative;
+    left:180px;
+    top: 20px;
+}
+.dottt
+{
+    height: 35px;
+    width: 105px;
+    border-radius: 20px;
+    border: 1px dashed white;
+    position: relative;
+    left: 5px;
+}
+.dottt h5
+{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.insin:hover
+{
+    background: linear-gradient(to left,#7343ef,#d035e5);
+}
+.parnt-1
+{
+    height: 520px;
+    width: 405px;
+    margin-left: 495px;
+    margin-top: -495px;
+}
+.box221
+{
+
+    height: 520px;
+    width: 405px;
+    border-radius: 10px;
+    background-image: url(./NETMAK/news_thumb02.png);
+    background-size: 100% 100%;
+    transition-duration: 1s;
+    position: absolute;
+    left: 500px;
+    top: 30px;
+}
+.box221:hover
+{
+    background-size: 105% 105%;
+}
+.parnt-2
+{
+    height: 520px;
+    width: 405px;
+    margin-left: 938.2px;
+    margin-top: -517px;
+}
+.box223
+{
+
+    height: 520px;
+    width: 405px;
+    border-radius: 10px;
+    background-image: url(./NETMAK/news_thumb03.png);
+    background-size: 100% 100%;
+    transition-duration: 1s;
+    position: absolute;
+    left: 940px;
+    top: 30px;
+}
+.box223:hover
+{
+    background-size: 105% 105%;
+}
+.box25
+{
+    height: 205px;
+    width: 293px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 1s;
+    position: relative;
+    left: 85px;
+    top: 60px;
+}
+.box25:hover
+{
+    margin-top: -10px;
+    transition-duration: 1s;
+}
+.liner
+{
+    height: 50px;
+    width: 50px;
+    background:linear-gradient(to left,#7343ef,#d035e5);
+    border-radius: 100px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+#dnd
+{
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+#dnd-2
+{
+    color:#171429;
+    font-size: 75px;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+.downlod
+{
+    height: 70px;
+    width: 200px;
+    position:absolute;
+    left: 40px;
+    top: 120px;
+}
+.downlod p
+{
+    color: white;
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 21.5px;
+}
+.downlod h5
+{
+    color: #aba9a9;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.box26
+{
+    height: 205px;
+    width: 293px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 1s;
+    position: relative;
+    left: 410px;
+    top: -145px;
+}
+.box26:hover
+{
+    margin-top: -10px;
+    transition-duration: 1s;
+}
+#dndd
+{
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 14px;
+}
+#dnd-3
+{
+    color:#171429;
+    font-size: 75px;
+    padding-left: 195px;
+    padding-top: 15px;
+}
+.box27
+{
+    height: 205px;
+    width: 293px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 1s;
+    position: relative;
+    left: 735px;
+    top: -350px;
+}
+.box27:hover
+{
+    margin-top: -10px;
+    transition-duration: 1s;
+}
+#dndd1
+{
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 13.5px;
+    padding-top: 14px;
+}
+#dnd-4
+{
+    color:#171429;
+    font-size: 75px;
+    padding-left: 180px;
+    padding-top: 18px;
+}
+.box28
+{
+    height: 205px;
+    width: 293px;
+    background-color:#1d1933;
+    border-radius: 10px;
+    transition-duration: 1s;
+    position: relative;
+    left: 1060px;
+    top: -555px;
+}
+.box28:hover
+{
+    margin-top: -10px;
+}
+#dndd2
+{
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.div30
+{
+    height: 55px;
+    width: 250px;
+    background-image: url(./NETMAK/star.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 595px;
+    top: -470px;
+}
+.box32
+{
+    height: 140px;
+    width: 100px;
+    position: relative;
+    left: 1140px;
+    top: -500px;
+}
+#leave
+{
+    color: #1e2238;
+    font-size: 120px;
+}
+.token
+{
+    height: 250px;
+    width: 820px;
+    position: relative;
+    left: 300px;
+    top: -580px;
+}
+.token p
+{
+    color: #d2d1d1;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+}
+.token h3
+{
+    color: white;
+    font-size: 22px;
+    cursor: progress;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-left: 340px;
+    padding-top: 30px;
+}
+.token h4
+{
+    color: #d035e5;
+    font-size: 16.5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+#arrow11
+{
+    color: #d035e5;
+    position: relative;
+    top: -16px;
+    padding-left: 482px;
+}
+.boxpink
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #d035e5;
+    position: absolute;
+    left: 390px;
+    top: 210px;
+}
+.boxpink2
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color:#2d2849;
+    position: absolute;
+    left: 410px;
+    top: 210px;
+}
+.boxpink3
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color:#2d2849;
+    position: absolute;
+    left: 430px;
+    top: 210px;
+}
+.maindiv-8
+{
+    height: 470px;
+    width: 93%;
+    background-color: #0f1029;
+    margin-left: 115px;
+}
+.mainlogo-2
+{
+    height: 41px;
+    width: 30px;
+    background-image: url(./NETMAK/logo.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+.fugs
+{
+    height: 90px;
+    width: 320px;
+    position: relative;
+    left: 70px;
+    top: 110px;
+}
+.fugs p
+{
+    color: #d2d1d1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+.headers
+{
+    height: 40px;
+    width: 800px;
+    position: relative;
+    left: 480px;
+    top: -50px;
+}
+.headers h3
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 2px;
+    font-size: 21.5px;
+}
+.headers p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 300px;
+    top: -1px;
+    font-size: 21.5px;
+}
+.headers h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 590px;
+    top: -3px;
+    font-size: 21.5px;
+}
+ul-1
+{
+    height: 30px;
+    width: 430px;
+    position: relative;
+    left: 595px;
+    top: -68px;
+}
+ul-1>li
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    cursor: pointer;
+    padding-top: 15px;
+    transition-duration: 1s;
+    position: relative;
+    top: 30px;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    margin-left: -8%;
+}
+ul-1>li:hover
+{
+    padding-left: 10px;
+    transition-duration: 1s;
+}
+ul-2
+{
+    height: 30px;
+    width: 430px;
+    position: relative;
+    left: 900px;
+    top: -124px;
+}
+ul-2>li
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    cursor: pointer;
+    transition-duration: 1s;
+    padding-top: 15px;
+    position: relative;
+    top: -70px;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    margin-left: -8%;
+}
+ul-2>li:hover
+{
+    padding-left: 10px;
+    transition-duration: 1s;
+}
+.fcb
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 2px;
+    background-color:#2d2849;
+    position: relative;
+    left: 75px;
+    top: -220px;
+}
+.fcb:hover
+{
+    background: #d035e5;
+}
+#hot
+{
+    color: white;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.tiwter
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 2px;
+    background-color:#2d2849;
+    position: relative;
+    left: 120px;
+    top: -254px;
+}
+.tiwter:hover
+{
+    background: #d035e5;
+}
+#hot-1
+{
+    color: white;
+    font-size: 15px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+.linked
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 2px;
+    background-color:#2d2849;
+    position: relative;
+    left: 165px;
+    top: -288.5px;
+}
+.linked:hover
+{
+    background: #d035e5;
+}
+#hot-2
+{
+    color: white;
+    font-size: 15px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+.pinter
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 2px;
+    background-color:#2d2849;
+    position: relative;
+    left: 210px;
+    top: -323px;
+}
+.pinter:hover
+{
+    background: #d035e5;
+}
+#hot-3
+{
+    color: white;
+    font-size: 15px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+.property
+{
+
+    height: 47px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: #28243f;
+    position: relative;
+    left: 1070px;
+    top: -485px;
+}
+.property-2
+{
+
+    height: 47px;
+    width: 50px;
+    border-radius: 5px;
+    background:linear-gradient(to left,#7343ef,#d035e5);
+    position: relative;
+    left: 1285px;
+    top: -532px;
+}
+#rokt
+{
+    color: white;
+    font-size: 22px;
+    padding-left: 14px;
+    padding-top: 13px;
+}
+.lastheader
+{
+    height: 70px;
+    width: 1410px;
+    background-color: #090a27;
+    margin-top: -300px;
+}
+.lastheader p
+{
+    color:#cacdd0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+
+
